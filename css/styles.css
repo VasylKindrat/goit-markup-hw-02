@@ -27,8 +27,6 @@ body {
   color: var(--main-title-color);
 }
 
-/* List Link */
-
 .list {
   list-style: none;
 }
