@@ -76,16 +76,20 @@ body {
   color: var(--hover-focus-header);
 }
 
-.header-address-list .header-address {
+.address {
   font-style: normal;
+  text-decoration: none;
+}
+
+.address-item {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--main-title-color);
 }
 
-.header-address:hover,
-.header-address:focus {
+.address-item:hover,
+.address-item:focus {
   color: var(--hover-focus-header);
 }
 
