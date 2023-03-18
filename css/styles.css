@@ -5,7 +5,7 @@
   --second-title-color: #2e2f42;
   --header-logo-color: #4d5ae5;
   --hover-focus-header: #404bbf;
-  --background-hero-text: #2e2f42;
+  --background-hero: #2e2f42;
   --hero-text-color: #ffffff;
   --order-btn-color: #ffffff;
   --order-background-color: #4d5ae5;
@@ -16,6 +16,7 @@
   --hover-focus-filter-color: #ffffff;
   --hover-focus-filter-background: #404bbf;
   --team-background-color: #f4f4fd;
+  --team-item-background-color: #ffffff;
   --footer-logo-color: #f4f4fd;
   --footer-text-color: #f4f4fd;
 }
@@ -75,7 +76,7 @@ body {
   color: var(--hover-focus-header);
 }
 
-.header-address {
+.header-address-list .header-address {
   font-style: normal;
   font-size: 16px;
   line-height: 1.5;
@@ -88,13 +89,16 @@ body {
   color: var(--hover-focus-header);
 }
 
+.hero {
+  background-color: var(--background-hero);
+}
+
 .section-hero-text {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--hero-text-color);
-  background-color: var(--background-hero-text);
 }
 
 /* Button */
@@ -143,16 +147,15 @@ body {
 /* Section Page Studio and Portfolio */
 
 .feature-title,
-.team-card,
-.row-title {
+.team-card {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--second-title-color);
 }
-.feature-text,
-.row-text {
+
+.feature-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -171,6 +174,10 @@ body {
 
 .team {
   background-color: var(--team-background-color);
+}
+
+.team-item {
+  background-color: var(--team-item-background-color);
 }
 
 .team-text {
